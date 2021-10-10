@@ -1,0 +1,76 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+**/gen
+ios/Podfile.lock
+macos/Podfile.lock
+packages/*/build/
+*.xcactivitylog
+DerivedData/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+*.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+*.lock
+lcov.info
+
+# Web related
+**/generated_plugin_registrant*
+tmp-dir/*
+
+# Exceptions to above rules.
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+# Logical link to flutter sdk
+.fvm/flutter_sdk
+
+# Fastlane reports
+fastlane/report.xml
+set_secrets.sh
+Gemfile.lock
+android/keystore/buildserver_playstore_key.json
+android/keystore/release.properties
+
+#Localization assets
+packages/horizon_localization/assets/i18n/*_*.json
+
+#python for blueprint SI
+pybpsi/
+
+#Local Sonar
+.scannerwork/
+
+# don't check in golden failure output
+**/failures/*.png
+.run/
+
+#Firebase config
+/ios/Runner/GoogleService-Info.plist
+
+# Web Nginx Proxy ssl:
+/scripts/web/nginx/ssl
